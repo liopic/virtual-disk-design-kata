@@ -11,6 +11,8 @@
 
 ![Visitor pattern](https://github.com/liopic/virtual-disk-design-kata/raw/master/summary/VisitorPattern.png)
 
+File and Directory could implement it like: ```public acceptVisitor(ResourceVisitor visitor) {visitor.visit(this);}```
+
 ##Requirement 5
 * We need to allow zip files.
 * They can contain other files, zips and directories.
