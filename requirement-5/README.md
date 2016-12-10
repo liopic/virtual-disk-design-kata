@@ -8,7 +8,8 @@
 
 ##Did you consider...
 * Have you create a Resource following the **Composite pattern?**
-* While implementing totalMP3, did you use a **Visitor pattern or DDD's domain service?** Did you implemented it in Directory?
+* While implementing totalMP3(), did you use a **Visitor pattern**? Maybe a DDD's domain service?** Or did you implemented it in Directory?
+![Visitor pattern](https://github.com/liopic/virtual-disk-design-kata/raw/master/summary/VisitorPattern.png)
 
 ##Requirement 5
 * We need to allow zip files.
