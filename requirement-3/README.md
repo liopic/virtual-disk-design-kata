@@ -5,7 +5,8 @@
 * Directories can contain File(s) but also Directory(s). So generalize both as Resource(s).
 
 ##Did you consider...
-* Have you create a Resource following the **Composite pattern?** :
+* Have you create a Resource following the **Composite pattern?**
+
 ![Composite pattern](https://github.com/liopic/virtual-disk-design-kata/raw/master/summary/CompositePattern.png)
 
 ##Requirement 3
