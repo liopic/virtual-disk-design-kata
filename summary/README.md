@@ -22,14 +22,12 @@
 ###Visitor pattern or domain service
 * When should a logic that processes a structure be coded in the structure itself? When should it be coded separately?
 
-* Approaches to coding separately:
-    * GOF's Visitor
+* Approaching to coding separately:
+    * **GOF's Visitor**
 
-    ![Visitor pattern](https://github.com/liopic/virtual-disk-design-kata/raw/master/summary/VisitorPattern.png)
-        
-    ```public acceptVisitor(ResourceVisitor visitor) { visitor.visit(this);}```
+        ![Visitor pattern](https://github.com/liopic/virtual-disk-design-kata/raw/master/summary/VisitorPattern.png)
 
         * The visitor design pattern is a way of separating an algorithm from an object structure on which it operates. A practical result of this separation is the ability to add new operations to existing object structures without modifying those structures.
 
-    * DDD domain service
+    * **DDD domain service**
         * A Service in Domain Driven Design is simply a stateless object that performs an action. In this case, an accion in the Domain layer (where the business logic of the application resides).
