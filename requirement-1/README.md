@@ -10,9 +10,9 @@ interface StorageInterface
    public Directory rootDirectory();
 }
 ```
-That is, the method rootDirectory will return the base Directory "/".
+That is, the method rootDirectory will return the base Directory (with name "/").
 * A Directory has a name and stores File(s). It should allow to add a file, delete a file and get all files (getting an array of File).
 * A File will be created with a name (a string) and a size (an int).
 
 ##Next Requirement
-* [Requirement two](../blob/master/requirement-2/README.md)
+* [Requirement two](../master/requirement-2/README.md)

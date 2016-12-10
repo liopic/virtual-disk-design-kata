@@ -10,4 +10,4 @@
     * So add the following method to Directory: ```int totalSize();```
 
 ##Next Requirement
-* [Requirement four](../blob/master/requirement-4/README.md)
+* [Requirement four](../master/requirement-4/README.md)
