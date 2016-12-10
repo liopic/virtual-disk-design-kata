@@ -10,6 +10,6 @@ implement it (usually a new method to code) and rethink the classes' structure.
 * You can use **any programming language** with object oriented programming.
 
 ##Let's start
-Before starting with the first requirement, prepare your laptop with your development environment and your favourite tests libraries for the language you plan to use already installed.
+Before starting: prepare your laptop with your development environment and your favourite tests libraries for the language you plan to use already installed.
 
 * [Requirement one](../master/requirement-1/README.md)

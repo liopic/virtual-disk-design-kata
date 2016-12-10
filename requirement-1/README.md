@@ -1,7 +1,7 @@
 #Virtual disk design kata
 ##Requirement 1
 * User can store files in this virtual disk.
-* We are not going to move/save any file; just store file's name and size.
+* We are not going to move/save any real file; just store file's name and size.
 
 A starting class for this virtual disk could be:
 ```

@@ -3,10 +3,8 @@
 * A Directory has a name and stores File(s). It can add and delete file(s).
 * A File has a name (a string) and a size (an int).
 * Directories can contain File(s) but also Directory(s). So generalize both as Resource(s).
-    * Did you use Composite pattern?
 * Storage should implement ```int totalSize();```.
 * Storage should implement ```int totalMP3()```. A file which name finishes with “mp3” is an MP3.
-    * Did you consider Visitor pattern or domain service? Did you implemented it in Directory?
 * We need to allow zip files.
 
 ##Concepts to discuss
@@ -21,7 +19,8 @@
 ###Visitor pattern or domain service
 * When should a logic that processes a structure be coded in the structure itself? When should it be coded separately?
 
-* Approaches:
+* Approaches to coding separately:
     * GOF's Visitor
         * The visitor design pattern is a way of separating an algorithm from an object structure on which it operates. A practical result of this separation is the ability to add new operations to existing object structures without modifying those structures.
     * DDD domain service
+        * A Service in Domain Driven Design is simply a stateless object that performs an action. In this case, an accion in the Domain layer (where the business logic of the application resides).

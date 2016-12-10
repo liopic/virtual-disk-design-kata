@@ -2,8 +2,11 @@
 ##Requirements reminder
 * A Directory has a name and stores File(s). It can add and delete file(s).
 * A File has a name (a string) and a size (an int).
-* Directories can contain File(s) but also Directory(s). So generalize both as Resource(s). Did you use Composite pattern?
-* Storage should implement ```int totalSize();```
+* Directories can contain File(s) but also Directory(s). So generalize both as Resource(s).
+* Storage should implement ```int totalSize();```.
+
+##Did you consider...
+* Have you create a Resource following the **Composite pattern?**
 
 ##Requirement 4
 * As per business request, we need to know how many MP3 files are stored.
