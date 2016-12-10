@@ -3,9 +3,9 @@
 * User can store files in this virtual disk.
 * We are not going to move/save any file; just store file's name and size.
 
-A base interface for this virtual disk could be:
+A starting class for this virtual disk could be:
 ```
-interface StorageInterface
+class Storage
 {
    public Directory rootDirectory();
 }
