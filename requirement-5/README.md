@@ -6,7 +6,7 @@
     * Did you use Composite pattern?
 * Storage should implement ```int totalSize();```.
 * Storage should implement ```int totalMP3()```. A file which name finishes with “mp3” is an MP3.
-    * Did you consider Visitor pattern or domain service? Did you implemented it in Directory?
+    * **Did you consider Visitor pattern or domain service?** Did you implemented it in Directory?
 
 ##Requirement five
 * We need to allow zip files.

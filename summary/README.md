@@ -10,6 +10,9 @@
 * We need to allow zip files.
 
 ##Concepts to discuss
+* Practice coding with Composite Pattern
+* Evaluate when a logic should be part of a structure or should be coded separately.
+
 ###Composite pattern
 * Structural component
 * Composite should be used when clients ignore the difference between compositions of objects and individual objects. If programmers find that they are using multiple objects in the same way, and often have nearly identical code to handle each of them, then composite is a good choice; it is less complex.
