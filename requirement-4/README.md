@@ -5,9 +5,6 @@
 * Directories can contain File(s) but also Directory(s). So generalize both as Resource(s).
 * Storage should implement ```int totalSize();```.
 
-##Did you consider...
-* Have you create a Resource following the **Composite pattern?**
-
 ##Requirement 4
 * As per business request, we need to know how many MP3 files are stored.
     * Implement in Storage ```int totalMP3()```
