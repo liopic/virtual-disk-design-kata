@@ -6,7 +6,7 @@
 
 ##Did you consider...
 * Have you create a Resource following the **Composite pattern?**
-
+![Composite pattern](https://github.com/liopic/virtual-disk-design-kata/raw/master/summary/CompositePattern.png "Composite pattern")
 ##Requirement 3
 * We need to know the total size our virtual storage is using.
     * So add the following method to Storage: ```int totalSize();```
