@@ -27,7 +27,8 @@
 
     ![Visitor pattern](https://github.com/liopic/virtual-disk-design-kata/raw/master/summary/VisitorPattern.png)
         
-        ```public acceptVisitor(ResourceVisitor visitor) { visitor.visit(this);}```    
+    ```public acceptVisitor(ResourceVisitor visitor) { visitor.visit(this);}```
+
         * The visitor design pattern is a way of separating an algorithm from an object structure on which it operates. A practical result of this separation is the ability to add new operations to existing object structures without modifying those structures.
 
     * DDD domain service
