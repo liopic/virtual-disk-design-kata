@@ -11,8 +11,9 @@ class Storage
 }
 ```
 That is, the method rootDirectory will return the base Directory (with name "/").
-* A Directory has a name and stores File(s). It should allow to add a file, delete a file and get all files (getting an array of File).
+* A Directory has a name and stores File(s).
+    * It should allow to add and delete a file(s).
 * A File will be created with a name (a string) and a size (an int).
 
 ##Next Requirement
-* [Requirement two](../master/requirement-2/README.md)
+* [Requirement two](../requirement-2/README.md)
