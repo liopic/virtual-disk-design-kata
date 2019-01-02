@@ -1,5 +1,5 @@
-#Virtual disk design kata
-##Requirement 1
+# Virtual disk design kata
+## Requirement 1
 * User can store files in this virtual disk.
 * We are not going to move/save any real file; just store file's name and size.
 
@@ -15,5 +15,5 @@ That is, the method rootDirectory will return the base Directory (with name "/")
     * It should allow to add and delete a file(s).
 * A File will be created with a name (a string) and a size (an int).
 
-##Next Requirement
+## Next Requirement
 * [Requirement two](../requirement-2/README.md)

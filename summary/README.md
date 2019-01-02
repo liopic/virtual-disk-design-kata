@@ -1,5 +1,5 @@
-#Virtual disk design kata
-##Requirements
+# Virtual disk design kata
+## Requirements
 * A Directory has a name and stores File(s). It can add and delete file(s).
 * A File has a name (a string) and a size (an int).
 * Directories can contain File(s) but also Directory(s). So generalize both as Resource(s).
@@ -7,11 +7,11 @@
 * Storage should implement ```int totalMP3()```. A file which name finishes with “mp3” is an MP3.
 * We need to allow zip files.
 
-##Concepts to discuss after this kata
+## Concepts to discuss after this kata
 * Practice coding with Composite Pattern
 * Evaluate when a logic should be part of a structure or should be coded separately.
 
-###Composite pattern
+### Composite pattern
 ![Composite pattern](https://github.com/liopic/virtual-disk-design-kata/raw/master/summary/CompositePattern.png)
 
 * **Structural component**
@@ -19,7 +19,7 @@
     * If programmers find that they are using multiple objects in the same way, and often have nearly identical code to handle each of them, then composite is a good choice; it is less complex.
 * Variant: As it is described in Design Patterns, the pattern also involves including the child-manipulation methods in the main Component interface, not just the Composite subclass.
 
-###Visitor pattern or domain service
+### Visitor pattern or domain service
 * When should a logic that processes a structure be coded in the structure itself? When should it be coded separately?
 
 * Approaching to coding separately:
